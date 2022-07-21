@@ -1,0 +1,85 @@
+.backGround{
+    height:100vh;
+    /* max-width:100%; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .motivvCard{
+      border-width: 2px;
+      align-items: center;
+      margin: 20px;
+      justify-content: center;
+      height: 100%;
+      width: fit-content;
+      padding: 2px;
+  }
+
+  .mobile{
+      height: fit-content;
+      flex-direction: column;
+      padding: auto;
+      /* background-color: aqua; */
+  }
+
+  .overFlowScroll{
+      overflow: scroll;
+  }
+
+  .headerHighlight{
+      color: #d500f9;
+  }
+
+  .borderHighlight{
+    border-color: #d500f9;
+}
+
+.primaryBackgrdColor{
+    background-color: #d500f9;
+}
+
+.fireWorks{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+  }
+  .fireWorks::before{
+    content: "";
+    background-image: url("../Images/istockphoto-1176488821-612x612.jpg");
+    background-size: contain;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;         
+  }
+
+  form>div>p{
+    color: red;
+  }
+
+.imgButton{
+    border: none;
+    background-color: transparent;
+}
+
+.imgButton:hover{
+    opacity: 50%;
+}
+
+.langModif{
+  border: none;
+  background-color: transparent;
+}
+
+.langModif:hover{
+  opacity: 50%;
+}
+
+.themeCol{
+  background-color: #d500f9;
+}
