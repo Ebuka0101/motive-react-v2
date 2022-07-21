@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/motive-react-v2/static/css/main.a4e96daf.css",
+    "main.js": "/motive-react-v2/static/js/main.172765fe.js",
+    "static/js/787.14048fd1.chunk.js": "/motive-react-v2/static/js/787.14048fd1.chunk.js",
+    "static/media/goldMedal.png": "/motive-react-v2/static/media/goldMedal.2314797d8d976d4e05b2.png",
+    "static/media/bronzeMedal.png": "/motive-react-v2/static/media/bronzeMedal.aa7ab5e5ced86e8642fe.png",
+    "static/media/silverMedal.png": "/motive-react-v2/static/media/silverMedal.cacdb0fd3917cd9926d3.png",
+    "static/media/free-flyer-poster-templates-13.jpg": "/motive-react-v2/static/media/free-flyer-poster-templates-13.808792f2c57fb9ec76bb.jpg",
+    "static/media/music-event-poster-template-with-colorful-shapes_1361-1591.jpg": "/motive-react-v2/static/media/music-event-poster-template-with-colorful-shapes_1361-1591.a02746cc65bf6b978377.jpg",
+    "static/media/night-club-flyer-template-design-_screen.jpg": "/motive-react-v2/static/media/night-club-flyer-template-design-406a7947f953883a9659f89683a16430_screen.94eeed795c29085873d1.jpg",
+    "static/media/png": "/motive-react-v2/static/media/d9aeb53d702512f3574e5f4d25f13a39.d40671e4af7f01fd5b8e.png",
+    "static/media/fleur-sciortino-summer-book-fest-poster.jpg": "/motive-react-v2/static/media/fleur-sciortino-summer-book-fest-poster.1b485b818b45b3d520d9.jpg",
+    "static/media/lt16412134_quantized.png": "/motive-react-v2/static/media/lt16412134_quantized.edef121b9ec04870d2d5.png",
+    "static/media/vector-illustration-dance-party-poster-background-template-with-splash-M68Y5J.jpg": "/motive-react-v2/static/media/vector-illustration-dance-party-poster-background-template-with-splash-M68Y5J.c74bb5fb6d54d3b3cb00.jpg",
+    "static/media/1143w-rDvlh6vcVWs.webp": "/motive-react-v2/static/media/1143w-rDvlh6vcVWs.4f8d74dbf56768762585.webp",
+    "static/media/jpg": "/motive-react-v2/static/media/55f0079c49cb2eda8270208e902fbc48.aa6cfcd90600215cb162.jpg",
+    "static/media/pIkbEsT8vpIkbEsTp2G.jpg-1.jpg": "/motive-react-v2/static/media/pIkbEsT8vpIkbEsTp2G.jpg-1.54214b0600e9923b75af.jpg",
+    "static/media/istockphoto-1176488821-612x612.jpg": "/motive-react-v2/static/media/istockphoto-1176488821-612x612.c58942adadd6f59b3a9a.jpg",
+    "static/media/Festive-Event.png": "/motive-react-v2/static/media/Festive-Event.cc3158366e9a9dbb44bb.png",
+    "static/media/media_4506ec8a0.jpeg": "/motive-react-v2/static/media/media_101c1fe466fb3eaa4e8f9939d1d88e234506ec8a0.d8c6a6f8d2022cdeb127.jpeg",
+    "static/media/images.jpeg": "/motive-react-v2/static/media/images.4f4d84abfdd71df482d4.jpeg",
+    "index.html": "/motive-react-v2/index.html",
+    "main.a4e96daf.css.map": "/motive-react-v2/static/css/main.a4e96daf.css.map",
+    "main.172765fe.js.map": "/motive-react-v2/static/js/main.172765fe.js.map",
+    "787.14048fd1.chunk.js.map": "/motive-react-v2/static/js/787.14048fd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4e96daf.css",
+    "static/js/main.172765fe.js"
+  ]
+}
