@@ -44,7 +44,7 @@ export default function NavBar(props){
         <>
         <SideBar isActive={isActive} toggle={toggle}/>
         <nav className="customNavbar fixed-top">
-            <Link className="customNavLink" to='/'>
+            <Link className="customNavLink" to='/motive-react-v2/'>
                 <h1 style={{fontFamily: "Special Elite", marginTop: "15px"}}>Motivv</h1>
             </Link>
             <div className="customBars">
