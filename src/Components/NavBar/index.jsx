@@ -27,7 +27,7 @@ function SideBar(props){
                 </ul>
             </div>
             <div className="customSideBtnWrapper">
-                <Link to="/contactus" className="customSidebarRoute">Contact Us</Link>
+                <Link to="/motive-react-v2/contactus" className="customSidebarRoute">Contact Us</Link>
             </div>
         </aside>
     )
@@ -57,13 +57,13 @@ export default function NavBar(props){
             
             <div className="customNavBtnManu">
                 <div className="customNavMenu">
-                    <NavLink to='/plan' activeClassName="active" className="customNavLink">Plan </NavLink>
-                    <NavLink to='/help' activeClassName="active" className="customNavLink">Faq </NavLink>
-                    <NavLink to="/eventType" activeClassName="active" className="customNavLink">Events</NavLink>
+                    <NavLink to='/motive-react-v2/plan' activeClassName="active" className="customNavLink">Plan </NavLink>
+                    <NavLink to='/motive-react-v2/help' activeClassName="active" className="customNavLink">Faq </NavLink>
+                    <NavLink to="/motive-react-v2/eventType" activeClassName="active" className="customNavLink">Events</NavLink>
                     {/* <NavLink to="/event" activeClassName="active" className="customNavLink">Event</NavLink> */}
                 </div>
                 <nav className="customNavBtn">
-                    <Link to="/contactus" className="customNavBtnLink">Contact Us</Link>
+                    <Link to="/motive-react-v2/contactus" className="customNavBtnLink">Contact Us</Link>
                 </nav>
             </div>
 
