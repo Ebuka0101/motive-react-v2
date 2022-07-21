@@ -23,12 +23,12 @@ function App() {
         <Routes>
           {/* comment below out till fixed
           <Route path="/landing" element={<LandingPage/>} />  */}
-          <Route exact path='/' element={<Home />} />   
-          <Route path='/plan' element={ <PlanWrapper />} /> 
-          <Route path='/help' element={<Faq />} />
-          <Route path='/eventType' element={<EventType />} />
-          <Route path='/event' element={<EventWrapper />} />
-          <Route path='/contactus' element={<ContactUs/>} />
+          <Route exact path='/motive-react-v2/' element={<Home />} />   
+          <Route path='/motive-react-v2/plan' element={ <PlanWrapper />} /> 
+          <Route path='/motive-react-v2/help' element={<Faq />} />
+          <Route path='/motive-react-v2/eventType' element={<EventType />} />
+          <Route path='/motive-react-v2/event' element={<EventWrapper />} />
+          <Route path='/motive-react-v2/contactus' element={<ContactUs/>} />
         </Routes>
       </BrowserRouter>
       {/* <Event /> */}

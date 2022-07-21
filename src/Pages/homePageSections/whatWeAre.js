@@ -23,7 +23,7 @@ export default function WhatWeAre(props){
                     </div>
                     <div className="col-lg-3 align-items-center">
                         <div className="row justify-content-center my-2">
-                            <CustomRouteButton btnstyle={"btn--outline"} className="getStartedBtnStyle" animate={true} onClick={()=>props.navigate('/plan')}>Get Started</CustomRouteButton>    
+                            <CustomRouteButton btnstyle={"btn--outline"} className="getStartedBtnStyle" animate={true} onClick={()=>props.navigate('/motive-react-v2/plan')}>Get Started</CustomRouteButton>    
                         </div>                
                     </div>
                 </div>

@@ -19,9 +19,9 @@ function SideBar(props){
             </div>
             <div className="customSideBarWrapper">
                 <ul className="customSideBarMenu">
-                    <Link to='/plan' className="customSidebarLink" onClick={props.toggle}>Plan </Link>
-                    <Link to='/help' className="customSidebarLink" onClick={props.toggle}>FAQ </Link>
-                    <Link to="/eventType" className="customSidebarLink" onClick={props.toggle}>Events</Link>
+                    <Link to='/motive-react-v2/plan' className="customSidebarLink" onClick={props.toggle}>Plan </Link>
+                    <Link to='/motive-react-v2/help' className="customSidebarLink" onClick={props.toggle}>FAQ </Link>
+                    <Link to="/motive-react-v2/eventType" className="customSidebarLink" onClick={props.toggle}>Events</Link>
                     {/* <Link to="/event" className="customSidebarLink" onClick={props.toggle}>Event</Link> */}
                     
                 </ul>

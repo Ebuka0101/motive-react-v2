@@ -117,7 +117,7 @@ export default function EventType(){
                             <h3 className="fw-light headerHighlight display-6">Featured</h3>
                     </div>
                 </div>
-                <FeaturesController desktopPosterContainerStyle="featuredEventPoster" mobilePosterContainerStyle="featuredEventPoster" customBg="bgHeaderHeight" infoContainerStyle="featuredEventInfo" image={tempPic} alt="Main" imgStyle="imgStyles" startTime={heading.startt} endTime={heading.endt} locationType={heading.locationType} eventType={heading.eventType} onClick={()=>{navigate("/event", {state: heading})}}/>
+                <FeaturesController desktopPosterContainerStyle="featuredEventPoster" mobilePosterContainerStyle="featuredEventPoster" customBg="bgHeaderHeight" infoContainerStyle="featuredEventInfo" image={tempPic} alt="Main" imgStyle="imgStyles" startTime={heading.startt} endTime={heading.endt} locationType={heading.locationType} eventType={heading.eventType} onClick={()=>{navigate("/motive-react-v2/event", {state: heading})}}/>
             </div>
             </div>
 
@@ -125,37 +125,37 @@ export default function EventType(){
                 <div className="row align-items-center justify-content-center">
                     {/* turn into component */}
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: fourthData})}}>
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: fourthData})}}>
                             <img src={fourth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton"  onClick={()=>{navigate("/event", {state: fifthData})}}>
+                        <button className="imgButton"  onClick={()=>{navigate("/motive-react-v2/event", {state: fifthData})}}>
                             <img src={fifth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: sixthData})}} >
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: sixthData})}} >
                             <img src={sixth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: seventhData})}}>
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: seventhData})}}>
                             <img src={seventh} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: eighthData})}}>
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: eighthData})}}>
                             <img src={eighth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: ninethData})}}>
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: ninethData})}}>
                             <img src={nineth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>
                     <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-center mt-3">
-                        <button className="imgButton" onClick={()=>{navigate("/event", {state: tenthData})}}>
+                        <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: tenthData})}}>
                             <img src={tenth} className="img-fluid" alt="tempPoster" style={{maxHeight:"500px", maxWidth: "100%"}}/>
                         </button>
                     </div>

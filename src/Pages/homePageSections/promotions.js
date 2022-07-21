@@ -92,7 +92,7 @@ export default function Promotions(props){
                     This is promotion is mostly beneficial for new host looking to level up their exposure. To access this promotion click on the contact button and the call the number provided. An agent will be availbe to assist you with making the best use of our promotions package.
                 </div>
                 <div className="modal-footer">
-                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/contactus')}>Contact Us</button>
+                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/motive-react-v2/contactus')}>Contact Us</button>
                 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ export default function Promotions(props){
                     This is promotion is mostly beneficial for new dj's looking to level up their exposure. To access this promotion click on the contact button and the call the number provided. An agent will be availbe to assist you with making the best use of our promotions package.
                 </div>
                 <div className="modal-footer">
-                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/contactus')}>Contact Us</button>
+                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/motive-react-v2/contactus')}>Contact Us</button>
                 </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@ export default function Promotions(props){
                     This is promotion is mostly beneficial for promoters looking to level up their exposure. To access this promotion click on the contact button and the call the number provided. An agent will be availbe to assist you with making the best use of our promotions package.
                 </div>
                 <div className="modal-footer">
-                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/contactus')}>Contact Us</button>
+                    <button type="button" className="btn btn-primary"  data-bs-dismiss="modal" onClick={()=>props.navigate('/motive-react-v2/contactus')}>Contact Us</button>
                 </div>
                 </div>
             </div>

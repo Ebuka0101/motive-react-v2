@@ -28,7 +28,7 @@ export default function Home(props){
                     locationType="Beach" 
                     eventType="Party" 
                     onClick={()=>{
-                        navigate("/event", {state: {img: featured, startt: "11:24 AM", endt: "9:00 PM", startd: "22 APR 2022", endd: "23 APR 2022", locationType: "Beach", eventType: "Party", username: "Marked", spotlights: 200}})}}/>
+                        navigate("/motive-react-v2/event", {state: {img: featured, startt: "11:24 AM", endt: "9:00 PM", startd: "22 APR 2022", endd: "23 APR 2022", locationType: "Beach", eventType: "Party", username: "Marked", spotlights: 200}})}}/>
             {/* </div> */}
             </div>
 

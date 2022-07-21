@@ -141,7 +141,7 @@ export default function Ranking(){
                         <div className="card border-0" >
                             <div className="card-body py-4 text-center px-0">
                                 {/* <h4 className="card-title fs-3">Second place poster</h4> */}
-                                <button className="imgButton" onClick={()=>{navigate("/event", {state: secondData})}}>
+                                <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: secondData})}}>
                                     <img src={second} className="rankImg rankImgsecond" alt="second"/>
                                     <p className="display-5 my-4 headerHighlight fw-bold">{secondData.username}</p>
                                     <img src={secondPlaceBadge} className="customBadge secondPlaceBdg" alt="secondPlaceBadge"/>
@@ -158,7 +158,7 @@ export default function Ranking(){
                         <div className="card border-0 borderHighlight">
                             <div className="card-body py-5 text-center align-items-center px-0">
                                 {/* <h4 className="card-title fs-2">First Place</h4> */}
-                                <button className="imgButton" onClick={()=>{navigate("/event", {state: firstData})}}>
+                                <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: firstData})}}>
                                     <div style={{display: "flex",justifyContent: "center"}}>
                                         <img src={first} className="rankImg rankImgfirst d-lg-block d-none" alt="first"/>
                                         <img src={first} className="rankImg rankImgfirst d-lg-none d-block" alt="first" style={{height: 400}}/>
@@ -178,7 +178,7 @@ export default function Ranking(){
                         <div className="card border-0">
                             <div className="card-body py-4 text-center align-items-center px-0">
                                 {/* <h4 className="card-title fs-3">Second place poster</h4> */}
-                                <button className="imgButton" onClick={()=>{navigate("/event", {state: secondData})}}>
+                                <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: secondData})}}>
                                     <div style={{display:"flex",justifyContent: "center"}}>
                                     <img src={second} className="rankImg rankImgsecond" alt="second" style={{height: 350}}/>
                                 </div>
@@ -197,7 +197,7 @@ export default function Ranking(){
                         <div className="card border-0">
                             <div className="card-body py-3 text-center px-0">
                                 {/* <h4 className="card-title fs-4">Third Place Poster</h4> */}
-                                <button className="imgButton" onClick={()=>{navigate("/event", {state: thirdData})}}>
+                                <button className="imgButton" onClick={()=>{navigate("/motive-react-v2/event", {state: thirdData})}}>
                                     <div style={{display: "flex",justifyContent: "center"}}>
                                     <img src={third} className="rankImg rankImgthird d-lg-block d-none" alt="third"/>
                                     <img src={third} className="rankImg rankImgthird d-lg-none d-block" alt="third" style={{height: 300}}/>
@@ -267,7 +267,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: fourthData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: fourthData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -323,7 +323,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: fifthData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: fifthData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -379,7 +379,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: sixthData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: sixthData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -435,7 +435,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: seventhData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: seventhData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -491,7 +491,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: eighthData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: eighthData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -547,7 +547,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: ninethData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: ninethData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        
@@ -603,7 +603,7 @@ export default function Ranking(){
                                                 </div>
                                             </div>
                                             <div className="row justify-content-end">
-                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/event", {state: tenthData})}}>More Info</CustomRouteButton>
+                                                <CustomRouteButton animate={true} onClick={()=>{navigate("/motive-react-v2/event", {state: tenthData})}}>More Info</CustomRouteButton>
                                             </div>
 
                                         </div>                                        

@@ -52,7 +52,7 @@ class Plan extends React.Component{
             console.log(this.state);
             console.log("in form");
             alert(`Congratulations ${this.state.eventTitle} is being validated`)
-            this.props.navigate('/')
+            this.props.navigate('/motive-react-v2/')
         } 
     }
 

@@ -33,7 +33,7 @@ class FrenchPlan extends React.Component{
             console.log(this.state);
             console.log("in form");
             alert(`félicitations ${this.state.eventTitle} est en cours de vérification`)
-            this.props.navigate('/')
+            this.props.navigate('/motive-react-v2/')
         } 
     }
 
